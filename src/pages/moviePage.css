@@ -1,0 +1,85 @@
+.moviePage-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.moviePage__info {
+    display: grid;
+    border-radius: 5px;
+    align-self: center;
+    justify-self: start;
+    max-width: 500px;
+    margin: 15px 0 0 15px;
+    background-color: black;
+    opacity: 0.7;
+    padding: 10px;
+}
+
+.moviePage-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+.moviePage-wrapper_footer {
+    display: grid;
+    grid-template-columns: repeat(3, 8em);
+    grid-column-gap: 10px;
+    align-items: end;
+    justify-items: start;
+    margin: 0 0 15px 15px;
+}
+
+.moviePage-wrapper_footer_item {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+    opacity: 0.7;
+    min-width: 8em;
+    min-height: 3em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.moviePage-wrapper_footer_addSelected {
+    display: grid;
+    align-self: end;
+    justify-self: end;
+    padding: 10px;
+    margin: 0 10em 15px 0;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.moviePage__info__genre {
+    display: grid;
+    grid-template-columns: 30px 200px 1fr;
+}
+
+.moviePage__info__genre p {
+    color: darkgreen;
+}
+
+.movieItem__item__close {
+    display: grid;
+    align-items: end;
+    justify-items: end;
+    margin-bottom: -20px;
+    z-index: 1;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.movieItem__item__close p {
+    border-radius: 10px;
+    background-color: gray;
+    padding: 5px;
+    margin: 2px;
+}
